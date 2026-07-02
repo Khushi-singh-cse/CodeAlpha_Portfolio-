@@ -590,59 +590,6 @@ section{
 
 /*  RESPONSIVE */
 
-@media(max-width:768px){
-
-.hero{
-
-    flex-direction:column-reverse;
-
-    text-align:center;
-
-    gap:60px;
-
-}
-
-.hero-content{
-
-    width:100%;
-
-}
-
-.hero-image{
-
-    width:100%;
-
-}
-
-.hero-image img{
-
-    width:280px;
-
-    height:280px;
-
-}
-
-.hero-buttons{
-
-    justify-content:center;
-
-}
-
-.navbar{
-
-    flex-direction:column;
-
-    gap:20px;
-
-}
-
-.nav-links{
-
-    flex-wrap:wrap;
-
-    justify-content:center;
-
-}
 
 .skills-container{
 
@@ -658,8 +605,6 @@ section{
 
 }
 
-.menu-toggle{
-    display: none;
 }
 @media(max-width:600px){
 
@@ -735,7 +680,7 @@ section{
     color:#00abf0;
 }
 
-/* ---------------- MOBILE NAV ---------------- */
+/*  MOBILE NAV */
 
 .menu-toggle{
     display:none;
@@ -744,10 +689,14 @@ section{
     cursor:pointer;
 }
 
-.menu-toggle{
-    display: none;
-}
 @media (max-width:768px){
+
+    .navbar{
+        flex-direction:row;
+        justify-content:space-between;
+        align-items:center;
+        position:relative;
+    }
 
     .menu-toggle{
         display:block;
@@ -755,6 +704,15 @@ section{
 
     .nav-links{
         display:none;
+        flex-direction:column;
+        position:absolute;
+        top:80px;
+        left:0;
+        width:100%;
+        background:#081b29;
+        padding:20px 0;
+        gap:20px;
+        text-align:center;
     }
 
     .nav-links.active{
