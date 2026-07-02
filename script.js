@@ -222,3 +222,15 @@ window.addEventListener("scroll", () => {
 // ==============================
 
 console.log("Portfolio Successfully Loaded 🚀");
+
+// Mobile Menu
+
+const menu = document.querySelector(".menu-toggle");
+
+const nav = document.querySelector(".nav-links");
+
+menu.addEventListener("click",()=>{
+
+    nav.classList.toggle("active");
+
+});
