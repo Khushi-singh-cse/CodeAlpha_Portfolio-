@@ -217,14 +217,23 @@ window.addEventListener("scroll", () => {
 
 console.log("Portfolio Successfully Loaded 🚀");
 
+// =======================
 // Mobile Menu
+// =======================
 
-const menu = document.querySelector(".menu-toggle");
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-links");
 
-const nav = document.querySelector(".nav-links");
+if (menuToggle && navMenu) {
 
-menu.addEventListener("click",()=>{
+    menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
 
-    nav.classList.toggle("active");
+    document.querySelectorAll(".nav-links a").forEach(link => {
+        link.addEventListener("click", () => {
+            navMenu.classList.remove("active");
+        });
+    });
 
-});
+}
