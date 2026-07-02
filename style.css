@@ -382,9 +382,7 @@ header{
 
 }
 
-/* ===========================
-   EDUCATION
-=========================== */
+/* EDUCATION */
 
 .education{
 
@@ -592,7 +590,7 @@ section{
 
 /*  RESPONSIVE */
 
-@media(max-width:991px){
+@media(max-width:768px){
 
 .hero{
 
