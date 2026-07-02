@@ -733,3 +733,96 @@ section{
 .nav-links a.active{
     color:#00abf0;
 }
+
+/* ---------------- MOBILE NAV ---------------- */
+
+.menu-toggle{
+    display:none;
+    font-size:30px;
+    color:#fff;
+    cursor:pointer;
+}
+
+@media(max-width:768px){
+
+    .navbar{
+        flex-direction:row;
+        align-items:center;
+    }
+
+    .menu-toggle{
+        display:block;
+    }
+
+    .nav-links{
+
+        position:absolute;
+        top:80px;
+        left:0;
+
+        width:100%;
+
+        background:#081b29;
+
+        flex-direction:column;
+
+        align-items:center;
+
+        gap:25px;
+
+        padding:25px 0;
+
+        display:none;
+
+    }
+
+    .nav-links.active{
+
+        display:flex;
+
+    }
+
+    .hero{
+
+        flex-direction:column-reverse;
+
+        text-align:center;
+
+    }
+
+    .hero-image img{
+
+        width:240px;
+        height:240px;
+
+        object-position:center top;
+
+    }
+
+    .hero-content h1{
+
+        font-size:46px;
+
+    }
+
+    .hero-content h2{
+
+        font-size:28px;
+
+    }
+
+    .hero-buttons{
+
+        flex-direction:column;
+
+        align-items:center;
+
+    }
+
+    .btn{
+
+        width:220px;
+
+    }
+
+}
