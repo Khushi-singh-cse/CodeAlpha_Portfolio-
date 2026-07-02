@@ -216,24 +216,3 @@ window.addEventListener("scroll", () => {
 // Console Message 😄
 
 console.log("Portfolio Successfully Loaded 🚀");
-
-// =======================
-// Mobile Menu
-// =======================
-
-const menuToggle = document.querySelector(".menu-toggle");
-const navMenu = document.querySelector(".nav-links");
-
-if (menuToggle && navMenu) {
-
-    menuToggle.addEventListener("click", () => {
-        navMenu.classList.toggle("active");
-    });
-
-    document.querySelectorAll(".nav-links a").forEach(link => {
-        link.addEventListener("click", () => {
-            navMenu.classList.remove("active");
-        });
-    });
-
-}
