@@ -1,5 +1,6 @@
-
+// ==============================
 // Typing Animation
+// ==============================
 
 const typingElement = document.getElementById("typing");
 
@@ -62,8 +63,9 @@ function typeEffect() {
 typeEffect();
 
 
-
+// ==============================
 // Active Navbar
+// ==============================
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-links a");
@@ -99,7 +101,9 @@ window.addEventListener("scroll", () => {
 });
 
 
+// ==============================
 // Scroll Reveal Animation
+// ==============================
 
 const revealElements = document.querySelectorAll(
     ".skill-card, .project-card, .education-card, .hero-content, .hero-image"
@@ -140,9 +144,9 @@ window.addEventListener("scroll", reveal);
 reveal();
 
 
-
+// ==============================
 // Scroll To Top Button
-
+// ==============================
 
 const topBtn = document.createElement("button");
 
@@ -192,9 +196,9 @@ topBtn.addEventListener("click", () => {
 });
 
 
-
+// ==============================
 // Sticky Navbar Shadow
-
+// ==============================
 
 const header = document.querySelector("header");
 
@@ -213,6 +217,8 @@ window.addEventListener("scroll", () => {
 });
 
 
+// ==============================
 // Console Message 😄
+// ==============================
 
 console.log("Portfolio Successfully Loaded 🚀");
