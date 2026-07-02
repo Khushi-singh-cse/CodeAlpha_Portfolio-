@@ -1,4 +1,6 @@
-/*GOOGLE RESET */
+/* ===========================
+   GOOGLE RESET
+=========================== */
 
 *{
     margin:0;
@@ -14,7 +16,9 @@ body{
     overflow-x:hidden;
 }
 
-/*REUSABLE*/
+/* ===========================
+   REUSABLE
+=========================== */
 
 .section-title{
     font-size:42px;
@@ -28,7 +32,9 @@ body{
     margin:auto;
 }
 
-/*NAVBAR*/
+/* ===========================
+   NAVBAR
+=========================== */
 
 header{
     width:100%;
@@ -78,7 +84,9 @@ header{
     color:#00abf0;
 }
 
-/*HERO*/
+/* ===========================
+   HERO
+=========================== */
 
 .hero{
 
@@ -212,7 +220,9 @@ header{
 
 }
 
-/*ABOUT SECTION*/
+/* ===========================
+   ABOUT SECTION
+=========================== */
 
 .about{
     padding:100px 0;
@@ -233,7 +243,9 @@ header{
     color:#cbd5e1;
 }
 
-/* SKILLS SECTION */
+/* ===========================
+   SKILLS SECTION
+=========================== */
 
 .skills{
     padding:100px 8%;
@@ -290,7 +302,9 @@ header{
 
 }
 
-/* PROJECTS*/
+/* ===========================
+   PROJECTS
+=========================== */
 
 .projects{
 
@@ -448,7 +462,9 @@ header{
 
 }
 
-/* CONTACT SECTION */
+/* ===========================
+   CONTACT SECTION
+=========================== */
 
 .contact{
     padding:100px 8%;
@@ -505,7 +521,9 @@ header{
 
 }
 
-/* FOOTER */
+/* ===========================
+   FOOTER
+=========================== */
 
 footer{
 
@@ -521,7 +539,9 @@ footer{
 
 }
 
-/* SCROLLBAR */
+/* ===========================
+   SCROLLBAR
+=========================== */
 
 ::-webkit-scrollbar{
 
@@ -549,7 +569,9 @@ footer{
 
 }
 
-/*SECTION SPACING */
+/* ===========================
+   SECTION SPACING
+=========================== */
 
 section{
 
@@ -557,7 +579,9 @@ section{
 
 }
 
-/* SIMPLE FADE ANIMATION */
+/* ===========================
+   SIMPLE FADE ANIMATION
+=========================== */
 
 .hero-content,
 .hero-image,
@@ -590,7 +614,9 @@ section{
 
 }
 
-/*  RESPONSIVE */
+/* ===========================
+   RESPONSIVE
+=========================== */
 
 @media(max-width:991px){
 
@@ -728,8 +754,4 @@ section{
 
 }
 
-}
-
-.nav-links a.active{
-    color:#00abf0;
 }
