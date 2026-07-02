@@ -234,3 +234,24 @@ menu.addEventListener("click",()=>{
     nav.classList.toggle("active");
 
 });
+
+// =======================
+// Mobile Menu
+// =======================
+
+const menuToggle = document.querySelector(".menu-toggle");
+const navMenu = document.querySelector(".nav-links");
+
+if (menuToggle && navMenu) {
+
+    menuToggle.addEventListener("click", () => {
+        navMenu.classList.toggle("active");
+    });
+
+    document.querySelectorAll(".nav-links a").forEach(link => {
+        link.addEventListener("click", () => {
+            navMenu.classList.remove("active");
+        });
+    });
+
+}
